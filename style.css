@@ -1,0 +1,222 @@
+/* Estilos Gerais do Corpo */
+body {
+    background-color: rgb(243, 175, 119);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: rgb(204, 175, 155);
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.header-content { /* Usado para organizar o cabeçalho com Flexbox */
+    display: flex;
+    flex-direction: column; /* Alinha os itens em coluna para o título ficar em cima da nav */
+    align-items: center; /* Centraliza horizontalmente o conteúdo do header-content */
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* Necessário para posicionar o perfil ABSOLUTAMENTE */
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0 0 10px 0; /* Adiciona uma margem inferior para separar do nav */
+    text-align: center; /* Garante que o texto do h1 seja centralizado */
+    width: 100%; /* Faz o h1 ocupar a largura total do header-content */
+}
+
+/* Estilos da Navegação */
+nav {
+    text-align: center; /* Centraliza os links de navegação */
+    margin-bottom: 10px; /* Adiciona um pequeno espaço abaixo da nav */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(180, 150, 130);
+}
+
+/* Estilos da Informação de Perfil (Nome e Foto) */
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute; /* Posiciona o perfil de forma absoluta */
+    right: 0; /* Alinha à direita do header-content */
+    top: 50%; /* Tenta centralizar verticalmente */
+    transform: translateY(-50%); /* Ajusta para centralizar verticalmente de verdade */
+    /* Adicione um padding ou margem ao header-content se o perfil ficar muito colado na borda */
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+
+/* Estilos da Seção Principal (main) */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(100, 70, 50);
+    margin-bottom: 30px;
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Formulário (cadastro.html) */
+form {
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button[type="submit"] {
+    background-color: rgb(204, 175, 155);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: rgb(180, 150, 130);
+}
+
+/* Tabela (cadastro.html) */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: rgb(204, 175, 155);
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table button {
+    background-color: rgb(180, 150, 130);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
+
+table button:hover {
+    background-color: rgb(150, 120, 100);
+}
+
+/* Artigos de Filmes (index.html) */
+section article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #eee;
+    text-align: center;
+}
+
+section article:last-child {
+    border-bottom: none;
+}
+
+section article img {
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section article h3 {
+    color: rgb(100, 70, 50);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Detalhes do Filme (detalhes.html) */
+.detalhes-filme img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
