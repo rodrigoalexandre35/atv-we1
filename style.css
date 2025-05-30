@@ -26,9 +26,9 @@ header {
 header h1 {
     font-size: 36px;
     color: #fff;
-    margin: 0 0 10px 0; /* Adiciona uma margem inferior para separar do nav */
-    text-align: center; /* Garante que o texto do h1 seja centralizado */
-    width: 100%; /* Faz o h1 ocupar a largura total do header-content */
+    margin: 0 0 5px 0; /* Reduzi a margem inferior para 5px */
+    text-align: center;
+    width: 100%;
 }
 
 /* Estilos da Navegação */
