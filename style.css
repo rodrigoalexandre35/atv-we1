@@ -228,10 +228,10 @@ section article h3 {
 
 .logo-img {
   /* Outros estilos da logo aqui */
-  width: 200px;
-  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px; /* Mantenho a altura que você definiu */
 }
-
 
 
 
