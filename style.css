@@ -227,8 +227,8 @@ section article h3 {
 }
 
 .logo-img {
-    width: 80px;
-    height: auto;
+  width: 160px; /* Dobra a largura original (80px) */
+  height: auto; /* Mantém a proporção da altura */
 }
 
 
