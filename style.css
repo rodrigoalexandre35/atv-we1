@@ -223,7 +223,7 @@ section article h3 {
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 80px;
 }
 
 .logo-img {
