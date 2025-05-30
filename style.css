@@ -1,28 +1,93 @@
-form button[type="submit"] { background-color: rgb(204, 175, 155); color: white; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 18px; transition: background-color 0.3s ease; }
+form button[type="submit"] {
+    background-color: rgb(204, 175, 155);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
 
-form button[type="submit"]:hover { background-color: rgb(180, 150, 130); }
+form button[type="submit"]:hover {
+    background-color: rgb(180, 150, 130);
+}
 
-/* Tabela (cadastro.html) */ table { width: 80%; border-collapse: collapse; margin: 40px auto; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+/* Tabela (cadastro.html) */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 
-table th, table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
 
-table th { background-color: rgb(204, 175, 155); color: white; font-weight: bold; }
+table th {
+    background-color: rgb(204, 175, 155);
+    color: white;
+    font-weight: bold;
+}
 
-table tr:nth-child(even) { background-color: #f2f2f2; }
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
-table tr:hover { background-color: #ddd; }
+table tr:hover {
+    background-color: #ddd;
+}
 
-table button { background-color: rgb(180, 150, 130); color: white; padding: 8px 12px; border: none; border-radius: 4px; cursor: pointer; margin-right: 5px; transition: background-color 0.3s ease; }
+table button {
+    background-color: rgb(180, 150, 130);
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+}
 
-table button:hover { background-color: rgb(150, 120, 100); }
+table button:hover {
+    background-color: rgb(150, 120, 100);
+}
 
-/* Artigos de Filmes (index.html) */ section article { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px dashed #eee; text-align: center; }
+/* Artigos de Filmes (index.html) */
+section article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #eee;
+    text-align: center;
+}
 
-section article:last-child { border-bottom: none; }
+section article:last-child {
+    border-bottom: none;
+}
 
-section article img { display: block; margin: 0 auto 15px auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+section article img {
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-section article h3 { color: rgb(100, 70, 50); margin-top: 0; margin-bottom: 10px; font-size: 28px; text-align: center; font-weight: bold; }
+section article h3 {
+    color: rgb(100, 70, 50);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
 
-/* Detalhes do Filme (detalhes.html) */ .detalhes-filme img { display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
-
+/* Detalhes do Filme (detalhes.html) */
+.detalhes-filme img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
