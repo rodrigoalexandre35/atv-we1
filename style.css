@@ -227,10 +227,8 @@ section article h3 {
 }
 
 .logo-img {
-  width: 200px;
-  height: auto; /* Para manter a proporção */
-  vertical-align: middle; /* Se você ainda quiser o alinhamento vertical */
-  margin-right: 100px; /* Se você ainda quiser essa margem */
+  /* Outros estilos da logo aqui */
+  height: 70px; /* Diminuindo a altura da logo de um valor anterior de 90px (pelo que lembro) */
 }
 
 
