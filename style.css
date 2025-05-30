@@ -227,8 +227,10 @@ section article h3 {
 }
 
 .logo-img {
-  width: 300px; /* Dobra a largura original (150px) */
-  height: auto; /* Mantém a proporção da altura */
+  width: 150px;
+  height: auto; /* Para manter a proporção */
+  vertical-align: middle; /* Se você ainda quiser o alinhamento vertical */
+  margin-right: 50px; /* Se você ainda quiser essa margem */
 }
 
 
