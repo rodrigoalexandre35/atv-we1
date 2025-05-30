@@ -10,7 +10,7 @@ body {
 /* Estilos do Cabeçalho */
 header {
     background-color: rgb(204, 175, 155);
-    padding: 10px 15px; /* Diminuindo o padding superior/inferior para 10px e o lateral para 15px */
+    padding: 5px 20px; /* Reduzi o padding superior e inferior para 5px */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
