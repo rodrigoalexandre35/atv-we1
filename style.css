@@ -50,17 +50,13 @@ nav a:hover {
 }
 
 /* Estilos da Informação de Perfil (Nome e Foto) */
-.profile-info {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    color: #fff;
-    font-weight: bold;
-    position: absolute; /* Posiciona o perfil de forma absoluta */
-    right: 0; /* Alinha à direita do header-content */
-    top: 50%; /* Tenta centralizar verticalmente */
-    transform: translateY(-50%); /* Ajusta para centralizar verticalmente de verdade */
-    /* Adicione um padding ou margem ao header-content se o perfil ficar muito colado na borda */
+.profile-pic {
+    width: 100px; /* Aumentando a largura */
+    height: 100px; /* Aumentando a altura */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
 }
 
 .profile-pic {
