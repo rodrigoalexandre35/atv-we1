@@ -18,7 +18,7 @@ header {
     display: flex;
     flex-direction: column; /* Alinha os itens em coluna para o título ficar em cima da nav */
     align-items: center; /* Centraliza horizontalmente o conteúdo do header-content */
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     position: relative; /* Necessário para posicionar o perfil ABSOLUTAMENTE */
 }
