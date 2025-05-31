@@ -55,13 +55,19 @@ nav a:hover {
     gap: 10px;
     color: #fff;
     font-weight: bold;
-    position: absolute; /* Posiciona o perfil de forma absoluta */
-    right: 0; /* Alinha à direita do header-content */
-    top: 0; /* Alinha ao topo do header-content */
-    transform: translateY(0); /* Remove o ajuste de centralização vertical */
-    /* Adicione um padding ou margem ao header-content se o perfil ficar muito colado na borda */
+    position: absolute;
+    right: 10px; /* Adicione um pequeno espaço da borda direita */
+    top: 10px;   /* Adicione um pequeno espaço do topo */
+    transform: translateY(0);
 }
 
+.profile-pic {
+    width: 70px; /* Tamanho aumentado conforme solicitado anteriormente */
+    height: 70px; /* Tamanho aumentado conforme solicitado anteriormente */
+    border-radius: 50%; /* Deixa a foto arredondada */
+    object-fit: cover;
+    border: 2px solid #fff;
+}
 
 /* Estilos da Seção Principal (main) */
 main {
